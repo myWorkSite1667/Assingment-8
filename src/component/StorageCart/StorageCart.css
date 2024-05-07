@@ -1,0 +1,90 @@
+    .imgHead{
+        display: flex;
+        margin-top: 20px;
+        align-items:center;
+    }
+
+.imgHead img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.headText p{
+    margin: 0;
+}
+
+.healthData{
+    display: flex;
+    background-color: #F2F4FA;
+    width: 80%;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top:20px
+}
+.addbreak{
+    margin-left: 35px;
+    font-size: 18px;
+}
+.healthData p{
+    margin: 5px;
+    
+}
+.break{
+    display: flex;
+    background-color: #F2F4FA;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+}
+.break p{
+    margin-left: 10px;
+    background-color:white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    cursor: pointer;
+    
+}
+.break p:focus{
+    background-color: #5D5FEF;
+}
+.TimeSet{
+   
+}
+.Exercise,.Break{
+    background-color: #F2F4FA;
+    height:40px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.ActiveButton{
+    background-color:#5D5FEF;
+    margin-top: 20px;
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+   
+}
+
+

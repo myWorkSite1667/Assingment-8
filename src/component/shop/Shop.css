@@ -1,0 +1,45 @@
+.mainbody{
+    display: grid;
+    grid-template-columns:3fr 1fr;
+    background-color: #F2F4FA;
+}
+.mainShop{
+  margin-left: 150px;
+}
+.topheader{
+    display: flex;
+    margin-top: 70px;
+    
+    align-items: center;
+    
+  
+}
+.topheader i{
+   height: 28px;
+   font-size:30px;
+   font-weight: 800;
+   color:#5D5FEF;
+   margin-right:15px;
+
+}
+.cart{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.topheader .p1{
+    margin-left: 10px;
+    font-size:35px;
+    font-weight: 800;
+    color:#5D5FEF;
+    margin: 0;
+    
+}
+.header .p2{
+   font-size: 25px;
+   margin-top: 30px;
+   
+   
+   
+}
